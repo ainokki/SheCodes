@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: "Saira Condensed", sans-serif;
+  background-color: rgba(227, 227, 228, 0.952);
+}
+
+img {
+  max-width: 100%;
+  margin: 5px auto 10px auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+.container {
+  display: inline-block;
+  border: 2px solid;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  width: 25%;
+  min-height: 415px;
+  margin: 10px 20px;
+  padding: 15px;
+  vertical-align: top;
+}
+ul {
+  padding: 10px 20px;
+}
+li {
+  list-style-type: none;
+  font-size: 30px;
+  text-align: left;
+  display: flex;
+}
+li .temp {
+  margin-left: auto;
+}
+li i {
+  margin-left: 10px;
+}
+label {
+  display: block;
+}
